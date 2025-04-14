@@ -1,0 +1,57 @@
+/* Axiforma Font Family */
+@font-face {
+  font-family: 'Axiforma';
+  src: url('fonts/axiforma/axiforma-regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Axiforma';
+  src: url('fonts/axiforma/axiforma-bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Axiforma';
+  src: url('fonts/axiforma/axiforma-light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Cera Pro Font Family */
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('fonts/cerapro/cerapro-regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('fonts/cerapro/cerapro-bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('fonts/cerapro/cerapro-light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('fonts/cerapro/cerapro-medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('fonts/cerapro/cerapro-thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}

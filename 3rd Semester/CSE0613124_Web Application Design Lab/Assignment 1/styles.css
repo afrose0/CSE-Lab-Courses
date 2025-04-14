@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cera Pro", Arial, sans-serif;
+}
+
+.font-axiforma {
+  font-family: "Axiforma", sans-serif;
+}
+
+.font-CceraPro {
+  font-family: "Cera Pro", sans-serif;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: url("./images/bg_.png");
+  background-size: cover;
+  background-position: start;
+  background-repeat: no-repeat;
+}
+
+.sidebar {
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 50px;
+  background-color: #ffe082;
+  max-height: 382px;
+  min-height: 382px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 15px));
+}
+
+.main-content {
+  width: 80%;
+  padding: 0 40px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.left-nav ul,
+.right-nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.left-nav a,
+.right-nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.logo h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.hero-section {
+  display: flex;
+  margin-top: 30px;
+  gap: 40px;
+}
+
+.hero-text {
+  width: 474px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.accent-line {
+  width: 75px;
+  height: 15px;
+  background-image: url("./images/wave_line.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.hero-text h2 {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 80px;
+}
+
+.location-info {
+  font-family: "Axiforma";
+  position: relative;
+  z-index: 99;
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  background: rgba(243, 243, 243, 0.9);
+  color: #777;
+  padding: 22px 32px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.location-info i {
+  margin-right: 8px;
+}
+
+.location-divider {
+  margin-left: 230px;
+}
+
+.schedule-btn {
+  border: none;
+  width: 120px;
+  background-color: #ff7043;
+  color: white;
+  padding: 12px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.avatar-group {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin-right: -10px;
+  border: 2px solid white;
+  background-size: cover;
+  background-position: center;
+}
+
+.avatar1 {
+  background-image: url("./images/users/user_1.png");
+  z-index: 1;
+}
+
+.avatar2 {
+  background-image: url("./images/users/user_2.png");
+  z-index: 2;
+}
+
+.avatar3 {
+  background-image: url("./images/users/user_3.png");
+  z-index: 3;
+}
+
+.avatar4 {
+  background-image: url("./images/users/user_4.png");
+  z-index: 4;
+}
+
+.avatar5 {
+  background-image: url("./images/users/user_5.png");
+  z-index: 5;
+}
+
+.avatar6 {
+  background-image: url("./images/users/user_6.png");
+  z-index: 6;
+}
+
+.avatar-plus {
+  font-family: 'Axiforma';
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: rgba(19, 222, 210, 1);
+  z-index: 7;
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  color: white;
+  font-weight: bold;
+}
+.visitors-info {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.visitors-info p {
+  margin-left: 20px;
+  color: rgba(0, 0, 0, 1);
+  font-size: 12px;
+}
+
+.hero-image {
+  flex: 1.2;
+  position: relative;
+}
+
+.main-workspace-image {
+  width: 476px;
+  height: 599px;
+  position: relative;
+  display: flex;
+  justify-content: end;
+}
+.main-workspace-image .image-main {
+  width: 400px;
+  max-width: 476px;
+  height: 100%;
+  display: block;
+  margin-top: 15px;
+  position: relative;
+  z-index: 10;
+}
+.main-workspace-image .image-top {
+  width: 400px;
+  position: absolute;
+  top: 3px;
+  right: 20px;
+  height: 100%;
+  z-index: 5;
+}
+.circular-image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 11;
+}
+
+.circular-image img.img1 {
+  height: 230px;
+  width: 230px;
+  top: -50px;
+  right: -90px;
+}
+
+.circular-image img.img2 {
+  height: 75px;
+  width: 75px;
+  top: 120px;
+  right: -200px;
+}
+
+.circular-image img.img3 {
+  height: 141px;
+  width: 141px;
+  top: 230px;
+  right: -141px;
+}
+
+.vertical-text {
+  position: absolute;
+  right: -150px;
+  bottom: 42px;
+  transform: translateY(-50%) rotate(270deg);
+  font-size: 37px;
+  letter-spacing: 2px;
+  color: rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  font-family: "Axiforma";
+  white-space: nowrap;
+}
+
+.partners {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 92px;
+  opacity: 0.6;
+}
+
+.partner-logo {
+  height: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.7;
+}
+
+.google {
+  width: 80px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg");
+}
+
+.slack {
+  width: 80px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b9/Slack_Technologies_Logo.svg");
+}
+
+.atlassian {
+  width: 120px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/8a/Atlassian-logo.svg");
+}
+
+.dropbox {
+  width: 100px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/78/Dropbox_Icon.svg");
+}
+
+.shopify {
+  width: 90px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/0e/Shopify_logo_2018.svg");
+}
